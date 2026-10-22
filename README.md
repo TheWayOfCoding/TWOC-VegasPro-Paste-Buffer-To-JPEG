@@ -35,7 +35,7 @@ Developed by [TheWayOfCoding](https://github.com/TheWayOfCoding).
    ```cmd
    dotnet msbuild TWOCVegasProPasteBufferToJPEG\TWOCVegasProPasteBufferToJPEG.csproj -p:Configuration=Release
    ```
-2. The Release build automatically copies the compiled `TWOCVegasProPasteBufferToJPEG.dll` to:
+2. The build automatically copies the compiled `TWOCVegasProPasteBufferToJPEG.dll` (and `.pdb`) via post-build event to:
    ```
    %USERPROFILE%\Documents\Vegas Script Menu\TWOC-VegasPro-Paste-Buffer-To-JPEG\
    ```
